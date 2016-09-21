@@ -19,7 +19,7 @@
         <item name="android:textColorSecondary">#8A000000</item>
         <item name="android:textColorHint">#42000000</item>
         <item name="bs_dialogBackground">@android:color/background_light</item>
-        <item name="bs_dividerColor">@color/bs_divider_color</item>
+
         <item name="bs_numColumns">@integer/bs_grid_colum</item>
         <item name="bs_titleTextAppearance">@style/Text.Headline</item>
         <item name="bs_listItemTitleTextAppearance">@style/Text.Title</item>
@@ -97,7 +97,7 @@
         <item name="android:listSelector">@drawable/bs_list_selector</item>
         <item name="android:drawSelectorOnTop">false</item>
         <item name="android:layoutAnimation">@anim/bs_list_layout_anim_in</item>
-        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingBottom">0dp</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
@@ -107,13 +107,13 @@
 
     <style name="BottomSheet.ListItem">
         <item name="android:layoutDirection" tools:ignore="NewApi">locale</item>
-        <item name="android:minHeight">48dp</item>
+        <item name="android:minHeight">56dp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:layoutAnimation">@null</item>
     </style>
 
     <style name="BottomSheet.ListItemImage">
-        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginLeft">22dp</item>
         <item name="android:layout_height">24dp</item>
         <item name="android:layout_width">24dp</item>
         <item name="android:layout_marginRight">16dp</item>
@@ -121,7 +121,7 @@
 
     <style name="BottomSheet.ListItemTitle">
         <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">viewStart</item>
-        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginLeft">22dp</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginRight">16dp</item>
@@ -133,8 +133,8 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:minHeight">1dp</item>
         <item name="android:background">?bs_dividerColor</item>
-        <item name="android:layout_marginTop">7dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
     </style>
 
     <style name="BottomSheet.GridItemImage">
@@ -167,7 +167,7 @@
         <item name="android:background">?bs_dividerColor</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
     </style>
 
 </resources>
