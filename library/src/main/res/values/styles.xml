@@ -166,7 +166,7 @@
     <style name="BottomSheet.TopDivider">
         <item name="android:background">?bs_dividerColor</item>
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:layout_marginBottom">0dp</item>
     </style>
 
